@@ -26,4 +26,16 @@ for (int i = 0; i < l; i++)
 
 }
 Console.Write("] -> ");
+Console.Write(" [");
+for (int i = 0; i < l; i++)
+{
+    if(array2[i].Length <= 3)
+    {
+        Console.Write(" ");
+        Console.Write(array2[i]);
+        Console.Write(" ");
+    }
+}
+Console.Write("] ");
+
 
